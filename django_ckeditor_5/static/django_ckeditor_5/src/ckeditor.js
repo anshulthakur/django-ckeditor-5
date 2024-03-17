@@ -45,7 +45,8 @@ import { Style } from '@ckeditor/ckeditor5-style';
 import { HorizontalLine } from '@ckeditor/ckeditor5-horizontal-line';
 import {LinkImage} from "@ckeditor/ckeditor5-link";
 import {HtmlEmbed} from "@ckeditor/ckeditor5-html-embed";
-import Mathematics from 'ckeditor5-math/src/math';
+import Math from '@isaul32/ckeditor5-math/src/math';
+import AutoformatMath from '@isaul32/ckeditor5-math/src/autoformatmath';
 
 export default class ClassicEditor extends ClassicEditorBase {
 }
@@ -96,5 +97,6 @@ ClassicEditor.builtinPlugins = [
     HorizontalLine,
     LinkImage,
     HtmlEmbed,
-    Mathematics
+    Math,
+    AutoformatMath
 ];
