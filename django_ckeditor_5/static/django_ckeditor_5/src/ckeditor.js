@@ -38,13 +38,17 @@ import ListProperties from '@ckeditor/ckeditor5-list/src/listproperties';
 import SourceEditing from '@ckeditor/ckeditor5-source-editing/src/sourceediting';
 import GeneralHtmlSupport from '@ckeditor/ckeditor5-html-support/src/generalhtmlsupport';
 import ImageInsert from '@ckeditor/ckeditor5-image/src/imageinsert';
-import {TableCaption} from "@ckeditor/ckeditor5-table";
+import { TableCaption } from '@ckeditor/ckeditor5-table';
 import WordCount from '@ckeditor/ckeditor5-word-count/src/wordcount';
 import Mention from '@ckeditor/ckeditor5-mention/src/mention';
 import { Style } from '@ckeditor/ckeditor5-style';
 import { HorizontalLine } from '@ckeditor/ckeditor5-horizontal-line';
 import {LinkImage} from "@ckeditor/ckeditor5-link";
 import {HtmlEmbed} from "@ckeditor/ckeditor5-html-embed";
+import { FullPage } from '@ckeditor/ckeditor5-html-support';
+import { SpecialCharacters } from '@ckeditor/ckeditor5-special-characters';
+import { SpecialCharactersEssentials } from '@ckeditor/ckeditor5-special-characters';
+import { FileUploader } from '@liqd/ckeditor5-file-uploader';
 import Math from '@isaul32/ckeditor5-math/src/math';
 import AutoformatMath from '@isaul32/ckeditor5-math/src/autoformatmath';
 import { Clipboard } from '@ckeditor/ckeditor5-clipboard';
@@ -98,6 +102,10 @@ ClassicEditor.builtinPlugins = [
     HorizontalLine,
     LinkImage,
     HtmlEmbed,
+    FullPage,
+    SpecialCharacters,
+    SpecialCharactersEssentials,
+    FileUploader,
     Math,
     AutoformatMath,
     Clipboard
