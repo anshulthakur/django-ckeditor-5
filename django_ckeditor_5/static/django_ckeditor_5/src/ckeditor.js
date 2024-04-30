@@ -47,6 +47,7 @@ import {LinkImage} from "@ckeditor/ckeditor5-link";
 import {HtmlEmbed} from "@ckeditor/ckeditor5-html-embed";
 import Math from '@isaul32/ckeditor5-math/src/math';
 import AutoformatMath from '@isaul32/ckeditor5-math/src/autoformatmath';
+import { Clipboard } from '@ckeditor/ckeditor5-clipboard';
 
 export default class ClassicEditor extends ClassicEditorBase {
 }
@@ -98,5 +99,6 @@ ClassicEditor.builtinPlugins = [
     LinkImage,
     HtmlEmbed,
     Math,
-    AutoformatMath
+    AutoformatMath,
+    Clipboard
 ];
