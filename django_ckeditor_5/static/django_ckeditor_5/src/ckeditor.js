@@ -49,6 +49,9 @@ import { FullPage } from '@ckeditor/ckeditor5-html-support';
 import { SpecialCharacters } from '@ckeditor/ckeditor5-special-characters';
 import { SpecialCharactersEssentials } from '@ckeditor/ckeditor5-special-characters';
 import { FileUploader } from '@liqd/ckeditor5-file-uploader';
+import { ShowBlocks } from '@ckeditor/ckeditor5-show-blocks';
+import { SelectAll } from '@ckeditor/ckeditor5-select-all';
+import { FindAndReplace } from '@ckeditor/ckeditor5-find-and-replace';
 import Math from '@isaul32/ckeditor5-math/src/math';
 import AutoformatMath from '@isaul32/ckeditor5-math/src/autoformatmath';
 import { Clipboard } from '@ckeditor/ckeditor5-clipboard';
@@ -106,6 +109,9 @@ ClassicEditor.builtinPlugins = [
     SpecialCharacters,
     SpecialCharactersEssentials,
     FileUploader,
+    ShowBlocks,
+    SelectAll,
+    FindAndReplace,
     Math,
     AutoformatMath,
     Clipboard

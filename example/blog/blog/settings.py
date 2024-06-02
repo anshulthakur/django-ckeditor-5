@@ -211,6 +211,9 @@ CKEDITOR_5_CONFIGS = {
                 "style",
                 "specialCharacters",
                 "fileUpload",
+                "showBlocks",
+                "selectAll",
+                "findAndReplace",
             ],
             "shouldNotGroupWhenFull": True,
         },
@@ -321,5 +324,5 @@ STORAGES = {
     },
 }
 CKEDITOR_5_CUSTOM_CSS = "custom.css"
-
+CK_EDITOR_5_UPLOAD_FILE_VIEW_NAME = "custom_upload_file"
 CSRF_COOKIE_NAME = "new_csrf_cookie_name"
